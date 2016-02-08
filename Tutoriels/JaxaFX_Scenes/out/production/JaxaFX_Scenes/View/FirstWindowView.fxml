@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FirstWindowsController">
+   <children>
+      <HBox alignment="CENTER" layoutX="198.0" layoutY="109.0" spacing="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="198.0" layoutY="114.0" text="New Window    " />
+            <Button layoutX="284.0" layoutY="109.0" mnemonicParsing="false" onAction="#openNewWindow" text="Go" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="177.0" layoutY="150.0" spacing="10.0">
+         <children>
+            <Label layoutX="198.0" layoutY="114.0" text="Change Window" />
+            <Button layoutX="284.0" layoutY="109.0" mnemonicParsing="false" onAction="#changeWindow" text="Go" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
