@@ -17,6 +17,6 @@ public class FirstWindowsController {
     }
 
     public void changeWindow(){
-
+        main.changeWindow();
     }
 }
