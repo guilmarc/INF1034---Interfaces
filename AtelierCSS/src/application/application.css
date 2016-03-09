@@ -1,0 +1,72 @@
+.root {
+    -fx-font-family: "Candal";
+    -fx-background-image: url("/application/background.png");
+    -fx-fill: aliceblue;
+    -fx-text-fill: aliceblue;
+    -fx-focus-color: #0012ff;
+    -fx-padding: 5px;
+}
+
+#gridPaneCentral {
+    -fx-hgap: 20px;
+    -fx-vgap: 5px;
+}
+
+#titrePizzeria {
+    -fx-fill: linear-gradient(aliceblue, aliceblue, #ff0013, aliceblue, aliceblue);
+    -fx-font-size: 40px;
+    -fx-font-weight: bolder;
+    -fx-stroke: black;
+    -fx-stroke-width: 1px;
+    -fx-font-family: "Sarina";
+    -fx-effect: dropshadow(gaussian, yellow, 5, 0.4, 0, 0);
+}
+
+#tableauTitre {
+     -fx-fill: aliceblue;
+     -fx-font-weight: normal;
+     -fx-font-size: 14px;
+     -fx-effect: dropshadow(gaussian, black, 1, 0.4, 1, 2);
+ }
+
+
+.check-box:selected .mark {
+    -fx-background-color: blue;
+}
+
+.check-box, .radio-button {
+    -fx-text-fill: aliceblue;
+    -fx-effect: dropshadow(gaussian, black, 1, 0.4, 1, 2);
+}
+
+.radio-button:hover, .check-box:hover {
+    -fx-text-fill: #ffeb00;
+}
+
+.radio-button:selected .dot{
+    -fx-background-color: blue;
+}
+
+.combo-box:hover {
+    -fx-border-color: yellow;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+}
+
+.combo-box .cell {
+    -fx-text-fill: blue;
+    -fx-background-color: rgba(0,0,0,0.2);
+}
+
+.text-area {
+    -fx-background-color: rgba(0,0,0,0.5);
+    -fx-text-fill: aliceblue;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
+
+.text-area .scroll-pane, .text-area .scroll-pane .content, .text-area .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+
